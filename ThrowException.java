@@ -1,8 +1,8 @@
 class Code{
-    void opr()  throw ArithmeticException //ducking of exception
+    void opr()  throws ArithmeticException //ducking of exception
     {
         int a=45,b=0,rs;
-        if(b=0)
+        if(b==0)
         throw(new ArithmeticException("Can't divide by zero"));
         else
         {
@@ -12,11 +12,11 @@ class Code{
         System.out.print("\n\t End of program.:");
 
     }
-
+}
     public class ThrowException{
-        public static void main(Strin[]args){
+        public static void main(String[]args){
 
-            code c= new Code();
+            Code c= new Code();
 
             try{
                 c.opr(); // critical statement
@@ -27,5 +27,3 @@ class Code{
             }
         }
     }
-    
-}

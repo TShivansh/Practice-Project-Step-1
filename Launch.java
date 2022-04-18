@@ -1,7 +1,7 @@
-interface calcy1{
+interface Calcy1{
     void add();
 }
-interface calcy2{
+interface Calcy2{
     void sub();
 }
 class Calculator implements Calcy1,Calcy2{
@@ -23,3 +23,4 @@ public class Launch {
         c1.add();
         c1.sub();
     }
+}

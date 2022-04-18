@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Iterator;
-class KthSmallst 
+class KthSmallest 
 { 
     int kthSmallest(int arr[], int l, int r, int k) 
     { 
@@ -42,13 +42,13 @@ class KthSmallst
         swap(arr, l + pivot, r); 
         return partition(arr, l, r); 
     } 
-}  
+}
 
 //from Bheemesh (Trainer) to All Attendees:
-public class Stats
+class Stats
 {
     public static void main(String[] args) {
-        KthSmallst ob = new KthSmallst(); 
+        KthSmallest ob = new KthSmallest(); 
         int arr[] = {12, 3, 5, 7, 4, 19, 26}; 
         int n = arr.length,k = 2; 
         System.out.println("K'th smallest element is "+ ob.kthSmallest(arr, 0, n-1, k)); 
@@ -63,5 +63,3 @@ public class Stats
     }
 }
 
-    
-}

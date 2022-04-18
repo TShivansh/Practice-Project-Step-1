@@ -1,4 +1,4 @@
-package com.simpli.oops2;
+// package com.simpli.oops2;
 class RotateArray { 
     public void rotate(int[] nums, int k) {
         if(k > nums.length) { // 3>7 
@@ -26,6 +26,4 @@ public class ArrayRotation
             System.out.print(arr[i]+" ");
         }
     }
-}
-    
 }
